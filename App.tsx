@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
+  Switch,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -9,6 +10,7 @@ import {
 } from 'react-native';
 import {SafeAreaView } from 'react-native-safe-area-context';
 function App() {
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
@@ -102,7 +104,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     lineHeight: 22,
   },
-});
+  });
 
 export default App;
 
